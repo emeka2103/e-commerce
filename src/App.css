@@ -1,0 +1,140 @@
+:root {
+  --mainRed: red;
+  --lightRed: rgba(255, 0, 0, 0.651);
+  --mainWhite: white;
+  --mainBlack: black;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+}
+
+.text-title {
+  font-family: "Roboto Condensed", sans-serif;
+  /* letter-spacing: 0.3rem; */
+  /* text-transform: capitalize; */
+}
+
+.text-Red {
+  color: var(--mainBlack);
+}
+
+.text-bright {
+  color: var(--lightRed);
+}
+
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://cdn.shopify.com/s/files/1/0064/5375/6002/products/22-600x600_1920x.jpg?v=1540632703");
+  background-size: cover;
+  border-radius: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+/* .product-container-main {
+  height: auto;
+} */
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 2fr));
+  grid-gap: 10px;
+  padding: 20px;
+  /* repeat(auto-fit, minmax(270px, 2fr)) */
+}
+
+.product {
+  background-color: rgba(255, 255, 255, 0.137);
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  /* border: 1px solid #222; */
+  box-shadow: 2px 0 5px rgb(0 0 0 / 30%);
+}
+
+.product img {
+  width: 15rem;
+  /* height: 22rem; */
+}
+
+/* .product button {
+  background-color: gren;
+  border-radius: 3px;
+  height: 45px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  width: 150px;
+} */
+
+.product-button {
+  background-color: white;
+  border-radius: 3px;
+  height: 45px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  width: 150px;
+  transition: all 0.5s ease-in-out;
+  margin-left: 20px;
+}
+
+.product-button:hover {
+  background-color: red;
+  color: white;
+  /* transition: all 0.5s ease-in-out; */
+  border-radius: 10px;
+}
+
+.product button:hover {
+  background-color: red;
+  color: white;
+}
+
+.form {
+  /* background-color: blue; */
+  height: 40rem;
+  padding: 50px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.loginForm {
+  /* background-color: black; */
+  width: 30rem;
+}
+
+.btn-black {
+  background: transparent;
+  color: black;
+  border: 2px solid black !important;
+  font-size: 10px !important;
+}
+
+.btn-black:hover {
+  background: grey !important;
+  color: white !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: green;
+}
+
+.buttonContainer {
+  display: grid;
+  justify-content: end;
+}
+
+/* .cartButton {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-radius: 1px solid black;
+  align-items: center;
+} */
