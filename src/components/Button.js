@@ -9,7 +9,7 @@ export const ButtonHeader = styled.button`
   width: 150px;
   margin: 5px 10px;
   transition: all 0.5s ease-in-out;
-  &:hover {
-    background: white;
-  }
+  /* &:hover {
+    background: black;
+  } */
 `;

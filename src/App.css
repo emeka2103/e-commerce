@@ -81,16 +81,21 @@ body {
   margin-left: 20px;
 }
 
-.product-button:hover {
+/* .product-button:hover {
   background-color: red;
   color: white;
-  /* transition: all 0.5s ease-in-out; */
+  transition: all 0.5s ease-in-out; 
   border-radius: 10px;
-}
+} */
 
 .product button:hover {
   background-color: red;
-  color: white;
+}
+
+.product button:disabled {
+  background-color: white;
+  /* color: white; */
+  /* background: transparent; */
 }
 
 .form {
